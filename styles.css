@@ -1,0 +1,41 @@
+body {
+    width: 425px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+#container_conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: aliceblue;
+    top: 50px;
+    left: 50px;
+    padding: 20px;
+    width: 100px;
+    height: 200px;
+}
+.container_botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+button,
+a {
+    border-radius: 24px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+}

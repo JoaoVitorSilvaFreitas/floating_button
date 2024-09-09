@@ -1,0 +1,20 @@
+ #container_conteudo {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            padding: 20px;
+            background-color: lightblue;
+            border: 2px solid #000;
+            text-align: center;
+        }
+        .container_botoes {
+            margin-top: 20px;
+        }
+        #floating_button, #yes_button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            margin: 5px;
+            border-radius: 5px;
+        }
